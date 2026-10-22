@@ -1,0 +1,28 @@
+<idea-plugin>
+    <id>dicheTimer</id>
+    <name>Session Timer</name>
+    <vendor>Chechevatov Dmitriy</vendor>
+
+    <description><![CDATA[
+        Показывает, сколько времени вы работаете в проекте за текущую сессию.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow
+                id="Session Timer"
+                anchor="right"
+                secondary="true"
+                canCloseContents="false"
+                factoryClass="diche.sessiontimer.SessionTimerToolWindowFactory"/>
+        <postStartupActivity
+                implementation="diche.sessiontimer.SessionTimerStartupActivity"/>
+    </extensions>
+
+    <applicationListeners>
+        <listener
+                class="diche.sessiontimer.SessionTimerProjectListener"
+                topic="com.intellij.openapi.project.ProjectManagerListener"/>
+    </applicationListeners>
+</idea-plugin>
