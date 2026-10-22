@@ -1,0 +1,34 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:diche.sessiontimer////PointingToDeclaration/-session -timer/diche.sessiontimer/index.html
+$dokka.location:diche.sessiontimer/SessionTimerProjectListener///PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-project-listener/index.html
+$dokka.location:diche.sessiontimer/SessionTimerProjectListener/SessionTimerProjectListener/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-project-listener/-session-timer-project-listener.html
+$dokka.location:diche.sessiontimer/SessionTimerProjectListener/projectClosingBeforeSave/#com.intellij.openapi.project.Project/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-project-listener/project-closing-before-save.html
+$dokka.location:diche.sessiontimer/SessionTimerService.Companion///PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/-companion/index.html
+$dokka.location:diche.sessiontimer/SessionTimerService.Companion/IDLE_THRESHOLD_MS/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/-companion/-i-d-l-e_-t-h-r-e-s-h-o-l-d_-m-s.html
+$dokka.location:diche.sessiontimer/SessionTimerService.HistoryState///PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/-history-state/index.html
+$dokka.location:diche.sessiontimer/SessionTimerService.HistoryState/HistoryState/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/-history-state/-history-state.html
+$dokka.location:diche.sessiontimer/SessionTimerService.HistoryState/sessions/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/-history-state/sessions.html
+$dokka.location:diche.sessiontimer/SessionTimerService.SessionRecord///PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/-session-record/index.html
+$dokka.location:diche.sessiontimer/SessionTimerService.SessionRecord/SessionRecord/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/-session-record/-session-record.html
+$dokka.location:diche.sessiontimer/SessionTimerService.SessionRecord/activeMillis/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/-session-record/active-millis.html
+$dokka.location:diche.sessiontimer/SessionTimerService.SessionRecord/startMillis/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/-session-record/start-millis.html
+$dokka.location:diche.sessiontimer/SessionTimerService.SessionRecord/totalMillis/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/-session-record/total-millis.html
+$dokka.location:diche.sessiontimer/SessionTimerService///PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/index.html
+$dokka.location:diche.sessiontimer/SessionTimerService/SessionTimerService/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/-session-timer-service.html
+$dokka.location:diche.sessiontimer/SessionTimerService/activeMillis/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/active-millis.html
+$dokka.location:diche.sessiontimer/SessionTimerService/dispose/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/dispose.html
+$dokka.location:diche.sessiontimer/SessionTimerService/finishSession/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/finish-session.html
+$dokka.location:diche.sessiontimer/SessionTimerService/getState/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/get-state.html
+$dokka.location:diche.sessiontimer/SessionTimerService/history/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/history.html
+$dokka.location:diche.sessiontimer/SessionTimerService/isIdle/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/is-idle.html
+$dokka.location:diche.sessiontimer/SessionTimerService/loadState/#diche.sessiontimer.SessionTimerService.HistoryState/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/load-state.html
+$dokka.location:diche.sessiontimer/SessionTimerService/state/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/state.html
+$dokka.location:diche.sessiontimer/SessionTimerService/totalMillis/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-service/total-millis.html
+$dokka.location:diche.sessiontimer/SessionTimerStartupActivity///PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-startup-activity/index.html
+$dokka.location:diche.sessiontimer/SessionTimerStartupActivity/SessionTimerStartupActivity/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-startup-activity/-session-timer-startup-activity.html
+$dokka.location:diche.sessiontimer/SessionTimerStartupActivity/execute/#com.intellij.openapi.project.Project/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-startup-activity/execute.html
+$dokka.location:diche.sessiontimer/SessionTimerToolWindowFactory///PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-tool-window-factory/index.html
+$dokka.location:diche.sessiontimer/SessionTimerToolWindowFactory/SessionTimerToolWindowFactory/#/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-tool-window-factory/-session-timer-tool-window-factory.html
+$dokka.location:diche.sessiontimer/SessionTimerToolWindowFactory/createToolWindowContent/#com.intellij.openapi.project.Project#com.intellij.openapi.wm.ToolWindow/PointingToDeclaration/-session -timer/diche.sessiontimer/-session-timer-tool-window-factory/create-tool-window-content.html
+diche.sessiontimer
