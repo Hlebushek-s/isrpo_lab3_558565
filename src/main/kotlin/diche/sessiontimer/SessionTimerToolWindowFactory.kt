@@ -65,7 +65,7 @@ class SessionTimerToolWindowFactory : ToolWindowFactory, DumbAware {
             add(currentPanel, BorderLayout.NORTH)
             add(historyPanel, BorderLayout.CENTER)
         }
-
+        // обновить отображение времени
         fun refresh() {
             activeLabel.text = formatDuration(timerService.activeMillis)
             totalLabel.text = "С момента открытия проекта: ${formatDuration(timerService.totalMillis)}"
@@ -80,12 +80,12 @@ class SessionTimerToolWindowFactory : ToolWindowFactory, DumbAware {
         content.setDisposer { swingTimer.stop() }
         toolWindow.contentManager.addContent(content)
     }
-
+    // Приведение даты к нормальному виду
     private fun formatRecord(record: SessionTimerService.SessionRecord): String {
         val start = DATE_FORMAT.format(Instant.ofEpochMilli(record.startMillis))
         return "$start — активно ${formatDuration(record.activeMillis)} (всего ${formatDuration(record.totalMillis)})"
     }
-
+    // Приведение милисекунд к часам, минутам и секундам
     private fun formatDuration(millis: Long): String {
         val totalSeconds = millis / 1000
         val h = totalSeconds / 3600

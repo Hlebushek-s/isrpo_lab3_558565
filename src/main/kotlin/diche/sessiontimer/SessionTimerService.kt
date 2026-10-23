@@ -125,8 +125,11 @@ class SessionTimerService : PersistentStateComponent<SessionTimerService.History
     companion object {
         /** Сколько времени без действий считается простоем "AFK": 5 минут. */
         const val IDLE_THRESHOLD_MS = 5 * 60 * 1000L
+        /** Максимальная разница по времени между тиками (проверка на сон) */
         private const val MAX_TICK_GAP_MS = 5_000L
+        /** Минимальная продолжительность сессии для её сохранения */
         private const val MIN_RECORD_MS = 60_000L
+        /** Количество хранимых записей */
         private const val MAX_HISTORY = 10
     }
 }
